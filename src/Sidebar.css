@@ -1,0 +1,53 @@
+.sidebar{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+    flex:0.2;
+    background-color: #040404;
+    min-width:230px;
+    color:white;
+}
+.sidebar_logo{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    height:40px;
+    padding: 10px;
+}
+.sidebar_option{
+    padding: 10px;
+    display: flex;
+    color: grey;
+    align-items: center;
+    transition: 200ms color ease-in;
+    cursor: pointer;
+}
+.sidebar_option h4{
+    margin-left: 15px;
+    font-weight: 600;
+}
+.sidebar_option:hover{
+    color: white;
+}
+.liked_box{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(124, 108, 196);
+    color:white;
+}
+.add_box{
+    border: 1px solid black;
+    padding: 8px;
+    background-color:gray;
+    color: white;
+}
+.sidebar_title{
+    padding: 10px;
+    font-weight: 600;
+    color: grey;
+    letter-spacing: 2px;
+}
+.sidebar hr{
+    margin-top: 10px;
+    border: 1px solid grey;
+}

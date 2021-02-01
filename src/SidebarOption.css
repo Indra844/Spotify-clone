@@ -1,0 +1,14 @@
+
+.sidebarOptions p{
+    margin-left: 10px;
+    font-weight: 600;
+    color: grey;
+    transition: 200ms color ease-in;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.sidebarOptions p:hover{
+    color:white;
+}
